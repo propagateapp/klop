@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="klop.propagate.com.au.klop.RoundActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvRound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout5" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/border"
+        android:id="@+id/linearLayout5">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linernayout">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/btnprev2"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Play Klop"
+                android:id="@+id/tvback" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Round"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:id="@+id/tvRoundName"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:gravity="right"
+                android:layout_gravity="center_vertical">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:src="@drawable/btnprev"
+                    android:id="@+id/preRound" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:src="@drawable/btnnext"
+                    android:id="@+id/nextRound" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/linernayout"
+            android:layout_alignParentLeft="true"
+            android:background="#33ffffff"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="8dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Player"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Score/ Total"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAlignment="textEnd"
+                android:paddingRight="8dp"
+                android:id="@+id/textView9" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

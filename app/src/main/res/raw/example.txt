@@ -1,0 +1,20 @@
+<p><b>WINNING THE GAME</b></p>
+A player must score exactly 50 points to win the game.  
+
+<p><b>IF YOU GO OVER 50 POINTS</b></p>
+If a player to score more than 50 points then that player's score goes back to 25 points and the next player takes their turn. 
+
+<p><b>THE WINNER </b></p>
+The first player to score exactly 50 points is the winner.  
+
+<p><b>HOW TO KEEP SCORE </b></p>
+1. On his first th Matti knock ouer the number 7,  12 and 5 pegs.<br/>
+2. Because he knocked over 3 pegs,  Matti scores 3 points.  <br/>
+3. Matti stands the pegs up,  his score is marked on the score sheet and the next player takes their turn.  <br/>
+4. On his second throw Matti knocks over the number 8 peg. <br/>
+5. Because he knocked over the number 8 peg only,  Matti scores 8 points. <br/>
+6. Matti stands the peg up,  his score is marked on the score sheet by adding it to his previous total and the next player takes their turn.<br/>
+7. Matti's score is now 11(his first score 3 plus his second score 8 11) .<br/>
+8. On his third throw Matti misses the pegs all together.  <br/>
+9. A strike is marked next to turn and the next player takes their turn .<br/>
+10. Matti's total score remains on 11 until he scores again.<br/>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="klop.propagate.com.au.klop.PlayerActivity">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/lVPlayKlop"
+        android:longClickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnNewGame"
+        android:layout_below="@+id/tvplayklop" />
+
+    <Button
+        android:layout_width="308dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btnnew"
+        android:id="@+id/btnNewGame"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:background="@drawable/border"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Play Klop"
+        android:textStyle="bold"
+        android:id="@+id/tvplayklop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

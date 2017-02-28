@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Fragment.SocialFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Social"
+        android:id="@+id/textView4"
+        android:layout_marginRight="80dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/BtnCamera"
+        android:layout_toEndOf="@+id/BtnCamera" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView7"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/instagram2"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/BtnCamera"
+        android:padding="12dp"
+        android:src="@drawable/camera"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/gridView"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:background="#000000"
+        android:numColumns="3"
+        android:layout_below="@+id/imageView7"
+        android:layout_above="@+id/linearLayout6" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:id="@+id/linearLayout6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:text="Newer"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/BtnCamera"
+            android:layout_toEndOf="@+id/BtnCamera"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/buttonpre" />
+
+        <Button
+            android:text="Older"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:id="@+id/buttonnext"
+            android:layout_marginRight="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/buttonpre"
+            android:layout_toEndOf="@+id/buttonpre" />
+    </LinearLayout>
+
+</RelativeLayout>
